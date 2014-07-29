@@ -1,0 +1,76 @@
+body {
+  /*padding: 50px;*/
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-image: url("/images/bg.jpg");
+}
+
+a {
+  color: #00B7FF;
+}
+
+h1.page_heading{
+padding-top: 58px;
+padding-left: 38px;
+}
+
+
+h1.title{
+  /*margin: 0 auto;
+  padding: 0;
+  width:35%;*/
+  text-align:center;
+color:#123762;
+}
+
+ul.navigation{
+  float:right;
+  margin-right:20px;
+display:block;
+/*border:2px solid silver;*/
+}
+
+
+ul.navigation li{
+  list-style-type:none;
+display:inline-block;
+padding:5px;
+margin:2px;
+border:2px solid brown;
+}
+
+
+ul.contact-address li, ul.users-list li	{
+list-style-type:none;
+}
+
+
+ul.navigation li a{
+  text-decoration:none;
+font-weight:bold;
+color: #00B7FF;
+}
+
+ul.navigation li:hover{
+background-color:#123456;
+color:#FFFFFF;
+}
+
+ul.navigation li a:hover{
+color:#FFFFFF;
+
+}
+
+ul.navigation li a:visited{
+/*color:silver;*/
+
+}
+
+form.new-user-form{
+padding-left:38px;
+width:200px;
+}
+
+form.new-user-form p{
+width:180px;
+}
+
